@@ -1,2 +1,2 @@
-# goit-js-hw-01
-ДЗ_JS_01
+# goit-js-hw-05
+DZ05

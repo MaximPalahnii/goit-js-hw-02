@@ -1,9 +1,10 @@
-const calculateEngravingPrice = (message = '', pricePerWord = 0) =>
-  message.split(' ').length * pricePerWord;
+function checkPassword(password) {
+  const ADMIN_PASSWORD = 'jqueryismyjam';
+  // Пиши код ниже этой строки
+  if (password === ADMIN_PASSWORD) {
+    return 'Добро пожаловать!';
+  } 
 
-console.log(
-  calculateEngravingPrice(
-    'Proin sociis natoque et magnis parturient montes mus',
-    10,
-  ),
-);
+  return 'Доступ запрещен, неверный пароль!';
+  // Пиши код выше этой строки
+}

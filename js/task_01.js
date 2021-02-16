@@ -1,11 +1,7 @@
-const getItemsString = function (array) {
-  'use strict';
-  // Write code under this line
-  let result = '';
-  for (let i = 0; i < array.length; i += 1) {
-    result += `${i + 1} - ${array[i]}\n`;
+function checkAge(age) {
+  if (age >= 18) { // Дополни эту строку
+    return 'Вы совершеннолетний человек';
   }
-  return result;
-};
 
-console.log(getItemsString(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']));
+  return 'Вы не совершеннолетний человек';
+}

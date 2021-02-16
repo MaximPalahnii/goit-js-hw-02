@@ -1,15 +1,10 @@
-function checkForSpam(str) {
-  'use strict';
-  // Write code under this line
-  let message =
-    str.toLowerCase().includes('spam') || str.toLowerCase().includes('sale');
-  return message;
-}
+// Стартовый код
+const fruits = ['яблоко', 'слива', 'груша', 'апельсин'];
+// Пиши код ниже этой строки
+const firstElement = fruits[0];
+const secondElement = fruits[1];
+const lastElement = fruits[3];
 
-console.log(checkForSpam('Latest technology news')); // false
-
-console.log(checkForSpam('JavaScript weekly newsletter')); // false
-
-console.log(checkForSpam('Get best sale offers now!')); // true
-
-console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
+console.log(firstElement);
+console.log(secondElement);
+console.log(lastElement);
